@@ -28,3 +28,10 @@ console.log(calculateSum(5, 5));
 function calculateDifference(num1, num2) {
   return num1 - num2;
 }
+
+// Start by adding a console.log that calls the calculateDifference function with the arguments 22 and 5.
+console.log(calculateDifference(22, 5))
+// Add a second console.log that calls the calculateDifference function with the arguments 12 and 1.
+console.log(calculateDifference(12, 1))
+// add a third console.log that calls the calculateDifference function with the arguments 17 and 9.
+console.log(calculateDifference(17, 9))
