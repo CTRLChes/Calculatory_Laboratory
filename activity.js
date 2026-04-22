@@ -36,7 +36,7 @@ console.log(calculateDifference(12, 1))
 console.log(calculateDifference(17, 9))
 
 // Declare a function called calculateProduct that takes two parameters, num1 and num2.
-function calculateProduct = (num1,num2) => {
+const calculateProduct = (num1, num2) => {
   return num1 * num2;
 }
 // Add a console.log that calls the calculateProduct function with the arguments 13 and 5.
@@ -57,6 +57,7 @@ console.log(calculateQuotient(3,0));
 // Declare a function called calculateSquare that takes a num parameter and returns the square of num.
 function calculateSquare(num) {
   return num ** 2;
+}
 // Add a console.log that calls the calculateSquare function with the argument of 2.
 console.log(calculateSquare(2));
 // Add another console.log that calls the calculateSquare function with the argument of 9.
